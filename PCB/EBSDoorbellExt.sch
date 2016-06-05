@@ -1,0 +1,926 @@
+EESchema Schematic File Version 2
+LIBS:EBSDoorbellExt-Symbols
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM555N U?
+U 1 1 5753ECBD
+P 8550 4150
+F 0 "U?" H 8150 4500 50  0000 L CNN
+F 1 "LM555N" H 8150 3800 50  0000 L CNN
+F 2 "" H 8550 4150 50  0000 C CNN
+F 3 "" H 8550 4150 50  0000 C CNN
+	1    8550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5753ED50
+P 10200 3600
+F 0 "R?" V 10280 3600 50  0000 C CNN
+F 1 "100kΩ" V 10200 3600 50  0000 C CNN
+F 2 "" V 10130 3600 50  0000 C CNN
+F 3 "" H 10200 3600 50  0000 C CNN
+	1    10200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5753EDCF
+P 7650 3500
+F 0 "R?" V 7730 3500 50  0000 C CNN
+F 1 "100kΩ" V 7650 3500 50  0000 C CNN
+F 2 "" V 7580 3500 50  0000 C CNN
+F 3 "" H 7650 3500 50  0000 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5753EE30
+P 10200 5100
+F 0 "C?" H 10225 5200 50  0000 L CNN
+F 1 "10μF" H 10225 5000 50  0000 L CNN
+F 2 "1206" H 10238 4950 50  0001 C CNN
+F 3 "" H 10200 5100 50  0000 C CNN
+F 4 "1276-1075-1-ND" H 10200 5100 60  0001 C CNN "DigiKeyPN"
+F 5 "25V" H 10300 4900 60  0000 C CNN "Voltage"
+F 6 "Value" H 10200 5100 60  0001 C CNN "ConradPN"
+F 7 "Value" H 10200 5100 60  0001 C CNN "Link"
+	1    10200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5753EEAB
+P 7650 4750
+F 0 "C?" H 7700 4650 50  0000 L CNN
+F 1 "100nF" H 7400 4850 50  0000 L CNN
+F 2 "" H 7688 4600 50  0000 C CNN
+F 3 "" H 7650 4750 50  0000 C CNN
+F 4 "Value" H 7650 4750 60  0001 C CNN "DigiKeyPN"
+F 5 "50V" H 7550 4950 60  0000 C CNN "Voltage"
+F 6 "Value" H 7650 4750 60  0001 C CNN "ConradPN"
+F 7 "Value" H 7650 4750 60  0001 C CNN "Link"
+	1    7650 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 5753F112
+P 7250 3950
+F 0 "C?" V 7150 3800 50  0000 L CNN
+F 1 "1μF" V 7400 3900 50  0000 L CNN
+F 2 "" H 7288 3800 50  0000 C CNN
+F 3 "" H 7250 3950 50  0000 C CNN
+F 4 "Value" H 7250 3950 60  0001 C CNN "DigiKeyPN"
+F 5 "16V" V 7500 3950 60  0000 C CNN "Voltage"
+F 6 "Value" H 7250 3950 60  0001 C CNN "ConradPN"
+F 7 "Value" H 7250 3950 60  0001 C CNN "Link"
+	1    7250 3950
+	0    1    1    0   
+$EndComp
+Text Label 10100 3950 2    60   ~ 0
+FS20_Sig
+$Comp
+L GND #PWR?
+U 1 1 5753FA0F
+P 8600 5450
+F 0 "#PWR?" H 8600 5200 50  0001 C CNN
+F 1 "GND" H 8600 5300 50  0000 C CNN
+F 2 "" H 8600 5450 50  0000 C CNN
+F 3 "" H 8600 5450 50  0000 C CNN
+	1    8600 5450
+	1    0    0    -1  
+$EndComp
+Text Label 6700 3200 0    60   ~ 0
+Vcc
+Text Label 7800 4350 0    60   ~ 0
+Vcc
+Text Label 6700 3950 0    60   ~ 0
+~Trigger
+$Comp
+L SW_PUSH SW?
+U 1 1 5753FE5D
+P 7050 4500
+F 0 "SW?" H 7200 4610 50  0000 C CNN
+F 1 "Test" H 7050 4420 50  0000 C CNN
+F 2 "" H 7050 4500 50  0000 C CNN
+F 3 "" H 7050 4500 50  0000 C CNN
+F 4 "563-1322-ND" H 7050 4500 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 7050 4500 60  0001 C CNN "Voltage"
+F 6 "Value" H 7050 4500 60  0001 C CNN "ConradPN"
+F 7 "Value" H 7050 4500 60  0001 C CNN "Link"
+	1    7050 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D?
+U 1 1 575400C6
+P 9450 4450
+F 0 "D?" V 9350 4350 50  0000 L CNN
+F 1 "Signal" H 9350 4550 50  0000 L CNN
+F 2 "" V 9450 4450 50  0000 C CNN
+F 3 "" V 9450 4450 50  0000 C CNN
+F 4 "Value" H 9450 4450 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 9450 4450 60  0001 C CNN "Voltage"
+F 6 "Value" H 9450 4450 60  0001 C CNN "ConradPN"
+F 7 "Value" H 9450 4450 60  0001 C CNN "Link"
+	1    9450 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575401BA
+P 9450 4650
+F 0 "#PWR?" H 9450 4400 50  0001 C CNN
+F 1 "GND" H 9450 4500 50  0000 C CNN
+F 2 "" H 9450 4650 50  0000 C CNN
+F 3 "" H 9450 4650 50  0000 C CNN
+	1    9450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57540661
+P 9450 4150
+F 0 "R?" V 9530 4150 50  0000 C CNN
+F 1 "1kΩ" V 9450 4150 50  0000 C CNN
+F 2 "" V 9380 4150 50  0000 C CNN
+F 3 "" H 9450 4150 50  0000 C CNN
+	1    9450 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode_Bridge D?
+U 1 1 575408D8
+P 2150 1600
+F 0 "D?" H 1900 1900 50  0000 C CNN
+F 1 "B80C1500G" H 2600 1800 50  0000 C CNN
+F 2 "" H 2150 1600 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88501/b40c1500g.pdf" H 2150 1600 50  0001 C CNN
+F 4 "B80C1500G-E4/51GI-ND " H 2150 1600 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 2150 1600 60  0001 C CNN "Voltage"
+F 6 "Value" H 2150 1600 60  0001 C CNN "ConradPN"
+F 7 "Value" H 2150 1600 60  0001 C CNN "Link"
+	1    2150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 57540A4C
+P 2900 1900
+F 0 "C?" H 2925 2000 50  0000 L CNN
+F 1 "220μF" H 2925 1800 50  0000 L CNN
+F 2 "" H 2938 1750 50  0000 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0012+ECA1HM221+7+WW" H 2900 1900 50  0001 C CNN
+F 4 "P5183-ND" H 2900 1900 60  0001 C CNN "DigiKeyPN"
+F 5 "50V" H 3000 1700 60  0000 C CNN "Voltage"
+F 6 "Value" H 2900 1900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 2900 1900 60  0001 C CNN "Link"
+	1    2900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 57540B19
+P 4600 1900
+F 0 "C?" H 4625 2000 50  0000 L CNN
+F 1 "10μF" H 4625 1800 50  0000 L CNN
+F 2 "" H 4638 1750 50  0000 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ups.pdf" H 4600 1900 50  0001 C CNN
+F 4 "493-5362-1-ND" H 4600 1900 60  0001 C CNN "DigiKeyPN"
+F 5 "25V" H 4700 1700 60  0000 C CNN "Voltage"
+F 6 "Value" H 4600 1900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 4600 1900 60  0001 C CNN "Link"
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57540B53
+P 3200 1900
+F 0 "C?" H 3225 2000 50  0000 L CNN
+F 1 "100nF" H 3225 1800 50  0000 L CNN
+F 2 "" H 3238 1750 50  0000 C CNN
+F 3 "" H 3200 1900 50  0000 C CNN
+F 4 "Value" H 3200 1900 60  0001 C CNN "DigiKeyPN"
+F 5 "Cer" H 3300 1700 60  0000 C CNN "Voltage"
+F 6 "Value" H 3200 1900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 3200 1900 60  0001 C CNN "Link"
+	1    3200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57540BE2
+P 4250 1900
+F 0 "C?" H 4275 2000 50  0000 L CNN
+F 1 "100n" H 4275 1800 50  0000 L CNN
+F 2 "" H 4288 1750 50  0000 C CNN
+F 3 "" H 4250 1900 50  0000 C CNN
+F 4 "Value" H 4250 1900 60  0001 C CNN "DigiKeyPN"
+F 5 "Cer" H 4350 1700 60  0000 C CNN "Voltage"
+F 6 "Value" H 4250 1900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 4250 1900 60  0001 C CNN "Link"
+	1    4250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7809ACT U?
+U 1 1 57540C1C
+P 3750 1650
+F 0 "U?" H 3550 1850 50  0000 C CNN
+F 1 "LM7809ACT" H 3750 1850 50  0000 L CNN
+F 2 "TO-220" H 3750 1750 50  0001 C CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF" H 3750 1650 50  0001 C CNN
+F 4 "MC7809CTGOS-ND" H 3750 1650 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 3750 1650 60  0001 C CNN "Voltage"
+F 6 "Value" H 3750 1650 60  0001 C CNN "ConradPN"
+F 7 "Value" H 3750 1650 60  0001 C CNN "Link"
+	1    3750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575417A1
+P 3350 2450
+F 0 "#PWR?" H 3350 2200 50  0001 C CNN
+F 1 "GND" H 3350 2300 50  0000 C CNN
+F 2 "" H 3350 2450 50  0000 C CNN
+F 3 "" H 3350 2450 50  0000 C CNN
+	1    3350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57541A3A
+P 1750 1800
+F 0 "#PWR?" H 1750 1550 50  0001 C CNN
+F 1 "GND" H 1750 1650 50  0000 C CNN
+F 2 "" H 1750 1800 50  0000 C CNN
+F 3 "" H 1750 1800 50  0000 C CNN
+	1    1750 1800
+	1    0    0    -1  
+$EndComp
+Text Label 5450 1600 2    60   ~ 0
+Vcc
+Wire Wire Line
+	7400 3950 8050 3950
+Wire Wire Line
+	7650 3650 7650 3950
+Connection ~ 7650 3950
+Wire Wire Line
+	10200 3200 10200 3450
+Wire Wire Line
+	6700 3200 10200 3200
+Wire Wire Line
+	7650 3200 7650 3350
+Wire Wire Line
+	8550 3750 8550 3200
+Connection ~ 8550 3200
+Wire Wire Line
+	8050 4150 7650 4150
+Wire Wire Line
+	7650 4150 7650 4600
+Wire Wire Line
+	7650 4900 7650 5300
+Wire Wire Line
+	7050 5300 10200 5300
+Wire Wire Line
+	10200 5300 10200 5250
+Wire Wire Line
+	8600 5300 8600 5450
+Connection ~ 8600 5300
+Connection ~ 7650 3200
+Wire Wire Line
+	8050 4350 7800 4350
+Wire Wire Line
+	6700 3950 7100 3950
+Wire Wire Line
+	7050 3950 7050 4200
+Connection ~ 7050 3950
+Wire Wire Line
+	7050 4800 7050 5300
+Connection ~ 7650 5300
+Wire Wire Line
+	9450 4550 9450 4650
+Wire Wire Line
+	9450 4300 9450 4350
+Wire Wire Line
+	2550 1600 3350 1600
+Wire Wire Line
+	4150 1600 5450 1600
+Wire Wire Line
+	4600 1600 4600 1750
+Wire Wire Line
+	4250 1750 4250 1600
+Connection ~ 4250 1600
+Wire Wire Line
+	3200 1750 3200 1600
+Connection ~ 3200 1600
+Wire Wire Line
+	2900 1750 2900 1600
+Connection ~ 2900 1600
+Wire Wire Line
+	2900 2050 2900 2350
+Wire Wire Line
+	2900 2350 5100 2350
+Wire Wire Line
+	4600 2350 4600 2050
+Wire Wire Line
+	4250 2050 4250 2350
+Connection ~ 4250 2350
+Wire Wire Line
+	3200 2050 3200 2350
+Connection ~ 3200 2350
+Wire Wire Line
+	3350 2450 3350 2350
+Connection ~ 3350 2350
+Wire Wire Line
+	1750 1600 1750 1800
+Connection ~ 4600 1600
+Wire Wire Line
+	3750 1900 3750 2350
+Connection ~ 3750 2350
+Wire Notes Line
+	6550 2950 6550 5850
+Wire Notes Line
+	6550 5850 10550 5850
+Wire Notes Line
+	10550 5850 10550 2950
+Wire Notes Line
+	10550 2950 6550 2950
+Wire Wire Line
+	9050 3950 10100 3950
+Wire Wire Line
+	9450 3950 9450 4000
+Connection ~ 9450 3950
+Wire Wire Line
+	9050 4150 9150 4150
+Wire Wire Line
+	9150 4150 9150 4900
+Wire Wire Line
+	9150 4350 9050 4350
+Wire Wire Line
+	9150 4900 10200 4900
+Wire Wire Line
+	10200 3750 10200 4950
+Connection ~ 9150 4350
+Connection ~ 10200 4900
+$Comp
+L Led_Small D?
+U 1 1 57543438
+P 5100 2200
+F 0 "D?" V 5200 2300 50  0000 L CNN
+F 1 "Pwr" V 5100 2000 50  0000 L CNN
+F 2 "" V 5100 2200 50  0000 C CNN
+F 3 "" V 5100 2200 50  0000 C CNN
+	1    5100 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 575436C7
+P 5100 1850
+F 0 "R?" V 5180 1850 50  0000 C CNN
+F 1 "1kΩ" V 5100 1850 50  0000 C CNN
+F 2 "" V 5030 1850 50  0000 C CNN
+F 3 "" H 5100 1850 50  0000 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1600 5100 1700
+Connection ~ 5100 1600
+Wire Wire Line
+	5100 2000 5100 2100
+Wire Wire Line
+	5100 2350 5100 2300
+Connection ~ 4600 2350
+$Comp
+L MES1A12 REL?
+U 1 1 57543C1C
+P 8350 1300
+F 0 "REL?" H 8350 1050 60  0000 C CNN
+F 1 "MES1A12" H 8350 1500 60  0000 C CNN
+F 2 "" H 8350 1300 60  0000 C CNN
+F 3 "" H 8350 1300 60  0000 C CNN
+	1    8350 1300
+	1    0    0    1   
+$EndComp
+Text Label 7050 1250 0    60   ~ 0
+FS20_Sig
+$Comp
+L GND #PWR?
+U 1 1 57543E6A
+P 7700 2050
+F 0 "#PWR?" H 7700 1800 50  0001 C CNN
+F 1 "GND" H 7700 1900 50  0000 C CNN
+F 2 "" H 7700 2050 50  0000 C CNN
+F 3 "" H 7700 2050 50  0000 C CNN
+	1    7700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1250 8000 1250
+Wire Wire Line
+	7700 1400 7700 1250
+Connection ~ 7700 1250
+Wire Wire Line
+	7700 1700 7700 2050
+Wire Wire Line
+	7700 1800 7900 1800
+Wire Wire Line
+	7900 1800 7900 1350
+Wire Wire Line
+	7900 1350 8000 1350
+Connection ~ 7700 1800
+$Comp
+L FS20S4SUB2/4 MOD?
+U 1 1 57544D09
+P 9350 1550
+F 0 "MOD?" H 8950 1250 60  0000 C CNN
+F 1 "FS20S4SUB2/4" H 9200 2000 60  0000 C CNN
+F 2 "" H 9350 1550 60  0000 C CNN
+F 3 "" H 9350 1550 60  0000 C CNN
+	1    9350 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1250 8650 1250
+Wire Wire Line
+	8650 1350 8750 1350
+Wire Wire Line
+	8750 1350 8750 2050
+$Comp
+L GND #PWR?
+U 1 1 5754503D
+P 8750 2050
+F 0 "#PWR?" H 8750 1800 50  0001 C CNN
+F 1 "GND" H 8750 1900 50  0000 C CNN
+F 2 "" H 8750 2050 50  0000 C CNN
+F 3 "" H 8750 2050 50  0000 C CNN
+	1    8750 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1900 9500 2050
+$Comp
+L GND #PWR?
+U 1 1 575450F0
+P 9500 2050
+F 0 "#PWR?" H 9500 1800 50  0001 C CNN
+F 1 "GND" H 9500 1900 50  0000 C CNN
+F 2 "" H 9500 2050 50  0000 C CNN
+F 3 "" H 9500 2050 50  0000 C CNN
+	1    9500 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8950 1350
+NoConn ~ 8950 1450
+NoConn ~ 8950 1550
+Wire Wire Line
+	2150 2200 2150 2000
+Wire Wire Line
+	1550 2200 2150 2200
+Text Label 1750 2200 0    60   ~ 0
+In2
+Text Label 1050 1150 0    60   ~ 0
+In2
+$Comp
+L CONN_01X02 P?
+U 1 1 57545E04
+P 850 1200
+F 0 "P?" H 850 1350 50  0000 C CNN
+F 1 "CONN_01X02" V 950 1200 50  0000 C CNN
+F 2 "" H 850 1200 50  0000 C CNN
+F 3 "" H 850 1200 50  0000 C CNN
+	1    850  1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1250 1550 1250
+Wire Wire Line
+	1550 1250 1550 2200
+$Comp
+L CONN_01X03 P?
+U 1 1 57546ECA
+P 850 4500
+F 0 "P?" H 850 4700 50  0000 C CNN
+F 1 "CONN_01X03" V 950 4500 50  0000 C CNN
+F 2 "" H 850 4500 50  0000 C CNN
+F 3 "" H 850 4500 50  0000 C CNN
+	1    850  4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57546FB7
+P 1400 4400
+F 0 "R?" V 1480 4400 50  0000 C CNN
+F 1 "1Ω" V 1400 4400 50  0000 C CNN
+F 2 "" V 1330 4400 50  0000 C CNN
+F 3 "" H 1400 4400 50  0000 C CNN
+F 4 "Value" H 1400 4400 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 1400 4400 60  0001 C CNN "Voltage"
+F 6 "Value" H 1400 4400 60  0001 C CNN "ConradPN"
+F 7 "Value" H 1400 4400 60  0001 C CNN "Link"
+	1    1400 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57547187
+P 1400 4700
+F 0 "R?" V 1480 4700 50  0000 C CNN
+F 1 "1kΩ" V 1400 4700 50  0000 C CNN
+F 2 "" V 1330 4700 50  0000 C CNN
+F 3 "" H 1400 4700 50  0000 C CNN
+	1    1400 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57547250
+P 2050 4700
+F 0 "R?" V 2130 4700 50  0000 C CNN
+F 1 "10kΩ" V 2050 4700 50  0000 C CNN
+F 2 "" V 1980 4700 50  0000 C CNN
+F 3 "" H 2050 4700 50  0000 C CNN
+	1    2050 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 575472E3
+P 1750 5050
+F 0 "D?" V 1600 5100 50  0000 C CNN
+F 1 "PESD3V3S1UB" V 1850 4750 50  0000 C CNN
+F 2 "" H 1750 5050 50  0000 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PESDXS1UB_SERIES.pdf" H 1750 5050 50  0001 C CNN
+F 4 "568-4044-1-ND" H 1750 5050 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 1750 5050 60  0001 C CNN "Voltage"
+F 6 "Value" H 1750 5050 60  0001 C CNN "ConradPN"
+F 7 "Value" H 1750 5050 60  0001 C CNN "Link"
+	1    1750 5050
+	0    -1   1    0   
+$EndComp
+Text Notes 1350 4350 0    60   ~ 0
+PTC!
+$Comp
+L D D?
+U 1 1 57547567
+P 3200 4400
+F 0 "D?" H 3200 4500 50  0000 C CNN
+F 1 "1N4148W" H 3200 4300 50  0000 C CNN
+F 2 "" H 3200 4400 50  0000 C CNN
+F 3 "http://www.vishay.com/docs/85887/1n4148wfl-g.pdf" H 3200 4400 50  0001 C CNN
+F 4 "1N4148WFL-G3-08GICT-ND" H 3200 4400 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 3200 4400 60  0001 C CNN "Voltage"
+F 6 "Value" H 3200 4400 60  0001 C CNN "ConradPN"
+F 7 "Value" H 3200 4400 60  0001 C CNN "Link"
+	1    3200 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 575476A8
+P 3650 4400
+F 0 "R?" V 3730 4400 50  0000 C CNN
+F 1 "100kΩ" V 3650 4400 50  0000 C CNN
+F 2 "" V 3580 4400 50  0000 C CNN
+F 3 "" H 3650 4400 50  0000 C CNN
+	1    3650 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 575477B0
+P 3950 4900
+F 0 "R?" V 4030 4900 50  0000 C CNN
+F 1 "100kΩ" V 3950 4900 50  0000 C CNN
+F 2 "" V 3880 4900 50  0000 C CNN
+F 3 "" H 3950 4900 50  0000 C CNN
+	1    3950 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C?
+U 1 1 57547833
+P 4250 4900
+F 0 "C?" H 4275 5000 50  0000 L CNN
+F 1 "1μF" H 4275 4800 50  0000 L CNN
+F 2 "" H 4288 4750 50  0000 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ups.pdf" H 4250 4900 50  0001 C CNN
+F 4 "493-5378-1-ND" H 4250 4900 60  0001 C CNN "DigiKeyPN"
+F 5 "100V" H 4350 4700 60  0000 C CNN "Voltage"
+F 6 "Value" H 4250 4900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 4250 4900 60  0001 C CNN "Link"
+	1    4250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57547991
+P 2850 4900
+F 0 "C?" H 2875 5000 50  0000 L CNN
+F 1 "100nF" H 2875 4800 50  0000 L CNN
+F 2 "" H 2888 4750 50  0000 C CNN
+F 3 "" H 2850 4900 50  0000 C CNN
+F 4 "Value" H 2850 4900 60  0001 C CNN "DigiKeyPN"
+F 5 "50V" H 2950 4700 60  0000 C CNN "Voltage"
+F 6 "Value" H 2850 4900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 2850 4900 60  0001 C CNN "Link"
+	1    2850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57547AAD
+P 2550 4900
+F 0 "C?" H 2575 5000 50  0000 L CNN
+F 1 "10nF" H 2575 4800 50  0000 L CNN
+F 2 "" H 2588 4750 50  0000 C CNN
+F 3 "" H 2550 4900 50  0000 C CNN
+F 4 "Value" H 2550 4900 60  0001 C CNN "DigiKeyPN"
+F 5 "50V" H 2650 4700 60  0000 C CNN "Voltage"
+F 6 "Value" H 2550 4900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 2550 4900 60  0001 C CNN "Link"
+	1    2550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_BEC Q?
+U 1 1 575482C2
+P 4550 4400
+F 0 "Q?" H 4850 4450 50  0000 R CNN
+F 1 "BC846C" H 5150 4350 50  0000 R CNN
+F 2 "" H 4750 4500 50  0000 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC846ALT1-D.PDF" H 4550 4400 50  0001 C CNN
+F 4 "BC847CLT1GOSCT-ND" H 4550 4400 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 4550 4400 60  0001 C CNN "Voltage"
+F 6 "Value" H 4550 4400 60  0001 C CNN "ConradPN"
+F 7 "Value" H 4550 4400 60  0001 C CNN "Link"
+	1    4550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5754837C
+P 4650 3850
+F 0 "R?" V 4730 3850 50  0000 C CNN
+F 1 "100kΩ" V 4650 3850 50  0000 C CNN
+F 2 "" V 4580 3850 50  0000 C CNN
+F 3 "" H 4650 3850 50  0000 C CNN
+	1    4650 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 4400 1250 4400
+Wire Wire Line
+	1550 4400 3050 4400
+Wire Wire Line
+	3350 4400 3500 4400
+Wire Wire Line
+	3800 4400 4350 4400
+Wire Wire Line
+	4650 4000 4650 4200
+Wire Wire Line
+	1050 4500 1200 4500
+Wire Wire Line
+	1200 4500 1200 4700
+Wire Wire Line
+	1200 4700 1250 4700
+Wire Wire Line
+	1550 4700 1900 4700
+Wire Wire Line
+	2200 4700 2350 4700
+Wire Wire Line
+	1750 4900 1750 4700
+Connection ~ 1750 4700
+Text Label 2350 4700 2    60   ~ 0
+Vcc
+Wire Wire Line
+	2550 4750 2550 4400
+Connection ~ 2550 4400
+Wire Wire Line
+	2850 4750 2850 4400
+Connection ~ 2850 4400
+$Comp
+L GND #PWR?
+U 1 1 57548DD0
+P 1750 5350
+F 0 "#PWR?" H 1750 5100 50  0001 C CNN
+F 1 "GND" H 1750 5200 50  0000 C CNN
+F 2 "" H 1750 5350 50  0000 C CNN
+F 3 "" H 1750 5350 50  0000 C CNN
+	1    1750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5350 1750 5200
+$Comp
+L GND #PWR?
+U 1 1 57548ECC
+P 2550 5350
+F 0 "#PWR?" H 2550 5100 50  0001 C CNN
+F 1 "GND" H 2550 5200 50  0000 C CNN
+F 2 "" H 2550 5350 50  0000 C CNN
+F 3 "" H 2550 5350 50  0000 C CNN
+	1    2550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5350 2550 5050
+$Comp
+L GND #PWR?
+U 1 1 5754905C
+P 2850 5350
+F 0 "#PWR?" H 2850 5100 50  0001 C CNN
+F 1 "GND" H 2850 5200 50  0000 C CNN
+F 2 "" H 2850 5350 50  0000 C CNN
+F 3 "" H 2850 5350 50  0000 C CNN
+	1    2850 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 5350 2850 5050
+Wire Wire Line
+	3950 4750 3950 4400
+Connection ~ 3950 4400
+Wire Wire Line
+	4250 4750 4250 4400
+Connection ~ 4250 4400
+$Comp
+L GND #PWR?
+U 1 1 5754947D
+P 3950 5350
+F 0 "#PWR?" H 3950 5100 50  0001 C CNN
+F 1 "GND" H 3950 5200 50  0000 C CNN
+F 2 "" H 3950 5350 50  0000 C CNN
+F 3 "" H 3950 5350 50  0000 C CNN
+	1    3950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57549484
+P 4250 5350
+F 0 "#PWR?" H 4250 5100 50  0001 C CNN
+F 1 "GND" H 4250 5200 50  0000 C CNN
+F 2 "" H 4250 5350 50  0000 C CNN
+F 3 "" H 4250 5350 50  0000 C CNN
+	1    4250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5350 4250 5050
+Wire Wire Line
+	3950 5050 3950 5350
+$Comp
+L GND #PWR?
+U 1 1 57549A88
+P 1100 5350
+F 0 "#PWR?" H 1100 5100 50  0001 C CNN
+F 1 "GND" H 1100 5200 50  0000 C CNN
+F 2 "" H 1100 5350 50  0000 C CNN
+F 3 "" H 1100 5350 50  0000 C CNN
+	1    1100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4600 1100 4600
+Wire Wire Line
+	1100 4600 1100 5350
+Wire Wire Line
+	4650 3700 4650 3550
+Wire Wire Line
+	4650 3550 5150 3550
+Text Label 5150 3550 2    60   ~ 0
+~Trigger
+$Comp
+L GND #PWR?
+U 1 1 5754A014
+P 4650 5350
+F 0 "#PWR?" H 4650 5100 50  0001 C CNN
+F 1 "GND" H 4650 5200 50  0000 C CNN
+F 2 "" H 4650 5350 50  0000 C CNN
+F 3 "" H 4650 5350 50  0000 C CNN
+	1    4650 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4600 4650 5350
+$Comp
+L SPST SW?
+U 1 1 5754A8C5
+P 1600 900
+F 0 "SW?" H 1600 1000 50  0000 C CNN
+F 1 "Power" H 1600 800 50  0000 C CNN
+F 2 "" H 1600 900 50  0000 C CNN
+F 3 "" H 1600 900 50  0000 C CNN
+F 4 "Value" H 1600 900 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 1600 900 60  0001 C CNN "Voltage"
+F 6 "Value" H 1600 900 60  0001 C CNN "ConradPN"
+F 7 "Value" H 1600 900 60  0001 C CNN "Link"
+	1    1600 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1150 1050 900 
+Wire Wire Line
+	1050 900  1100 900 
+Wire Wire Line
+	2100 900  2150 900 
+Wire Wire Line
+	2150 900  2150 1200
+$Comp
+L D D?
+U 1 1 5754BDF2
+P 7700 1550
+F 0 "D?" V 7600 1600 50  0000 C CNN
+F 1 "1N4148W" V 7800 1350 50  0000 C CNN
+F 2 "" H 7700 1550 50  0000 C CNN
+F 3 "http://www.vishay.com/docs/85887/1n4148wfl-g.pdf" H 7700 1550 50  0001 C CNN
+F 4 "1N4148WFL-G3-08GICT-ND" H 7700 1550 60  0001 C CNN "DigiKeyPN"
+F 5 "Value" H 7700 1550 60  0001 C CNN "Voltage"
+F 6 "Value" H 7700 1550 60  0001 C CNN "ConradPN"
+F 7 "Value" H 7700 1550 60  0001 C CNN "Link"
+	1    7700 1550
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	10100 850  10100 2400
+Wire Notes Line
+	10100 2400 6650 2400
+Wire Notes Line
+	6650 2400 6650 850 
+Wire Notes Line
+	600  700  600  2850
+Wire Notes Line
+	600  2850 5700 2850
+Wire Notes Line
+	5700 2850 5700 700 
+Wire Notes Line
+	5700 700  600  700 
+Wire Notes Line
+	650  5750 5400 5750
+Wire Notes Line
+	5400 5750 5400 3250
+Wire Notes Line
+	5400 3250 650  3250
+Wire Notes Line
+	650  3250 650  5750
+Text Notes 6650 5800 0    60   ~ 0
+One Second on-shot
+Text Notes 750  3400 0    60   ~ 0
+Doorbell Sensor
+Text Notes 700  2750 0    60   ~ 0
+Power supply
+Text Notes 6750 2350 0    60   ~ 0
+FS20 Driver
+Wire Notes Line
+	6650 850  10100 850 
+$EndSCHEMATC
