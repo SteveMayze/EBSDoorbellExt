@@ -1,0 +1,16 @@
+*.bak
+*.bck
+*.kicad_pcb-bak
+.DS_Store
+*.swp
+firmware/*.dbg
+firmware/*.obj
+firmware/*.rpt
+firmware/*.BM
+EA/generated/*
+*.ldb
+EBSDoorbellExt-Symbols.dcm
+*.tiff
+_autosave-*
+*.bin
+*.hex
