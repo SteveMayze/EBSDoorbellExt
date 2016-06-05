@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EBSDoorbellExt-Footprints)(type KiCad)(uri "$(KIPRJMOD)/lib/EBSDoorbellExt-Footprints.pretty")(options "")(descr ""))
+)
