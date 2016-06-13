@@ -1,0 +1,35 @@
+Reference, Quantity, Value, Footprint, Datasheet, DigiKeyPN, Voltage, ConradPN, Link
+"C1, ", 1,220μF, Capacitors_ThroughHole:C_Radial_D10_L13_P5, http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0012+ECA1HM221+7+WW,"P5183-ND","50V","Value","Value"
+"C10, ", 1,10μF, Capacitors_SMD:C_1206_HandSoldering, ,"1276-1075-1-ND","25V","Value","Value"
+"C3, ", 1,100n, Capacitors_SMD:C_0805_HandSoldering, ,"Value","Cer","Value","Value"
+"C4, ", 1,10μF, Capacitors_ThroughHole:C_Radial_D5_L11_P2, http://nichicon-us.com/english/products/pdfs/e-ups.pdf,"493-5362-1-ND","25V","Value","Value"
+"C5, ", 1,1μF, Capacitors_SMD:C_0805_HandSoldering, ,"Value","16V","Value","Value"
+"C2, C6, C8, ", 3,100nF, Capacitors_SMD:C_0805_HandSoldering, ,"Value","50V","Value","Value"
+"C7, ", 1,10nF, Capacitors_SMD:C_0805_HandSoldering, ,"Value","50V","Value","Value"
+"C9, ", 1,1μF, Capacitors_ThroughHole:C_Radial_D5_L11_P2, http://nichicon-us.com/english/products/pdfs/e-ups.pdf,"493-5378-1-ND","100V","Value","Value"
+"D2, ", 1,B80C1500G, EBSDoorbellExt-Footprints:B80C1500G, http://www.vishay.com/docs/88501/b40c1500g.pdf,"B80C1500G-E4/51GI-ND ","Value","Value","Value"
+"D3, ", 1,Pwr, LEDs:LED_0805, 
+"D4, ", 1,1N4148W, Diodes_SMD:SOD-523, http://www.vishay.com/docs/85887/1n4148wfl-g.pdf,"1N4148WFL-G3-08GICT-ND","Value","Value","Value"
+"D5, ", 1,Signal, LEDs:LED_0805, ,"Value","Value","Value","Value"
+"D6, ", 1,PESD3V3S1UB, Diodes_SMD:SOD-523, http://www.nxp.com/documents/data_sheet/PESDXS1UB_SERIES.pdf,"568-4044-1-ND","Value","Value","Value"
+"MOD1, ", 1,FS20S4SUB2/4, EBSDoorbellExt-Footprints:BoardConnector_Horizontal_1x2_P5, 
+"P1, ", 1,AC in, EBSDoorbellExt-Footprints:BoardConnector_Horizontal_1x2_P5, ,"Value","Value","Value","Value"
+"P2, ", 1,Doorbell, EBSDoorbellExt-Footprints:BoardConnector_Horizontal_1x3_P5, 
+"Q1, ", 1,BC846C, TO_SOT_Packages_SMD:SOT-23, http://www.onsemi.com/pub_link/Collateral/BC846ALT1-D.PDF,"BC847CLT1GOSCT-ND","Value","Value","Value"
+"R13, ", 1,NOPOP, Resistors_SMD:R_0805_HandSoldering, ,"Value","Value","Value","Value"
+"R10, R2, R3, R4, R7, ", 5,100kΩ, Resistors_SMD:R_0805_HandSoldering, 
+"R1, R11, R5, R8, ", 4,1kΩ, Resistors_SMD:R_0805_HandSoldering, 
+"R6, ", 1,1Ω, Resistors_SMD:R_1812_HandSoldering, http://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf,"MF-MSMF050-2CT-ND","Value","Value","Value"
+"R12, R9, ", 2,10kΩ, Resistors_SMD:R_0805_HandSoldering, 
+"SW1, ", 1,Power, Pin_Headers:Pin_Header_Straight_1x02, ,"Value","Value","Value","Value"
+"SW2, ", 1,Test, EBSDoorbellExt-Footprints:FSM2JSMAA, ,"563-1322-ND","Value","Value","Value"
+"U1, ", 1,LM7809CT, TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal, https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf,"LM7809ACT-ND","Value","Value","Value"
+"U2, ", 1,LM555N, Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm, http://www.ti.com/lit/ds/symlink/sa555.pdf,"296-14635-1-ND","Value","Value","Value"
+"U3, ", 1,LTV-817, EBSDoorbellExt-Footprints:LTV_817, http://optoelectronics.liteon.com/upload/download/DS70-2012-0050/S_110_LTV-817%20%28M,%20S,%20S-TA,%20S-TA1,%20S-TP%29%20Series%2020130925.pdf,"160-1367-5-ND ","Value","Value","Value"
+"W1, ", 1,FS20_ST1, Pin_Headers:Pin_Header_Straight_1x01, 
+"W2, ", 1,Vin, Pin_Headers:Pin_Header_Straight_1x01, 
+"W3, ", 1,Vout, Pin_Headers:Pin_Header_Straight_1x01, 
+"W4, ", 1,Trigger, Pin_Headers:Pin_Header_Straight_1x01, 
+"W5, ", 1,Relay, Pin_Headers:Pin_Header_Straight_1x01, 
+"W6, ", 1,Base, Pin_Headers:Pin_Header_Straight_1x01, 
+"W7, ", 1,GND, Pin_Headers:Pin_Header_Straight_1x01, 

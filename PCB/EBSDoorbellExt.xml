@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/vagrant/pcbs/EBSDoorbellExt/PCB/EBSDoorbellExt.sch</source>
+    <date>Mon 13 Jun 2016 09:33:40 PM CEST</date>
+    <tool>Eeschema 4.0.0-2.201512072331+6194~38~ubuntu14.04.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EBSDoorbellExt.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>100kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753ED50</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753EDCF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10μF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">1276-1075-1-ND</field>
+        <field name="Voltage">25V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753EE30</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753EEAB</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1μF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">16V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753F112</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Test</value>
+      <footprint>EBSDoorbellExt-Footprints:FSM2JSMAA</footprint>
+      <fields>
+        <field name="DigiKeyPN">563-1322-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5753FE5D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Signal</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575400C6</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540661</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>B80C1500G</value>
+      <footprint>EBSDoorbellExt-Footprints:B80C1500G</footprint>
+      <datasheet>http://www.vishay.com/docs/88501/b40c1500g.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">B80C1500G-E4/51GI-ND </field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="Diode_Bridge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575408D8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220μF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <datasheet>http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+ABA0012+ECA1HM221+7+WW</datasheet>
+      <fields>
+        <field name="DigiKeyPN">P5183-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540A4C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10μF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <datasheet>http://nichicon-us.com/english/products/pdfs/e-ups.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">493-5362-1-ND</field>
+        <field name="Voltage">25V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540B19</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Cer</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540B53</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Cer</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540BE2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM7809CT</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Neutral123_Horizontal</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/LM/LM7805.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">LM7809ACT-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="regul" part="LM7809ACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57540C1C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Pwr</value>
+      <footprint>LEDs:LED_0805</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57543438</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575436C7</tstamp>
+    </comp>
+    <comp ref="MOD1">
+      <value>FS20S4SUB2/4</value>
+      <footprint>EBSDoorbellExt-Footprints:BoardConnector_Horizontal_1x2_P5</footprint>
+      <libsource lib="EBSDoorbellExt-rescue" part="FS20S4SUB2/4-RESCUE-EBSDoorbellExt"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57544D09</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>AC in</value>
+      <footprint>EBSDoorbellExt-Footprints:BoardConnector_Horizontal_1x2_P5</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57545E04</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1Ω</value>
+      <footprint>Resistors_SMD:R_1812_HandSoldering</footprint>
+      <datasheet>http://www.bourns.com/docs/Product-Datasheets/mfmsmf.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">MF-MSMF050-2CT-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57546FB7</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57547187</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57547250</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>PESD3V3S1UB</value>
+      <footprint>Diodes_SMD:SOD-523</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PESDXS1UB_SERIES.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">568-4044-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575472E3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W</value>
+      <footprint>Diodes_SMD:SOD-523</footprint>
+      <datasheet>http://www.vishay.com/docs/85887/1n4148wfl-g.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">1N4148WFL-G3-08GICT-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57547567</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575476A8</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575477B0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1μF</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2</footprint>
+      <datasheet>http://nichicon-us.com/english/products/pdfs/e-ups.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">493-5378-1-ND</field>
+        <field name="Voltage">100V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57547833</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57547991</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">50V</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57547AAD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC846C</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/BC846ALT1-D.PDF</datasheet>
+      <fields>
+        <field name="DigiKeyPN">BC847CLT1GOSCT-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575482C2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5754837C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Power</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5754A8C5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM555N</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sa555.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">296-14635-1-ND</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="EBSDoorbellExt-Symbols" part="LM555N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57543F1C</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Doorbell</value>
+      <footprint>EBSDoorbellExt-Footprints:BoardConnector_Horizontal_1x3_P5</footprint>
+      <libsource lib="EBSDoorbellExt-Symbols" part="Doorbell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5755A6B1</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>Vout</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5757086F</tstamp>
+    </comp>
+    <comp ref="W1">
+      <value>FS20_ST1</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57570A06</tstamp>
+    </comp>
+    <comp ref="W5">
+      <value>Relay</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57570B03</tstamp>
+    </comp>
+    <comp ref="W2">
+      <value>Vin</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57570C5A</tstamp>
+    </comp>
+    <comp ref="W4">
+      <value>Trigger</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57570D3E</tstamp>
+    </comp>
+    <comp ref="W6">
+      <value>Base</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57570E0E</tstamp>
+    </comp>
+    <comp ref="W7">
+      <value>GND</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57573295</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57584654</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LTV-817</value>
+      <footprint>EBSDoorbellExt-Footprints:LTV_817</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS70-2012-0050/S_110_LTV-817%20%28M,%20S,%20S-TA,%20S-TA1,%20S-TP%29%20Series%2020130925.pdf</datasheet>
+      <fields>
+        <field name="DigiKeyPN">160-1367-5-ND </field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="opto" part="LTV-817"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575EDEE6</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>NOPOP</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DigiKeyPN">Value</field>
+        <field name="Voltage">Value</field>
+        <field name="ConradPN">Value</field>
+        <field name="Link">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575EF20B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1kΩ</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>575EFDA3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Diode_Bridge">
+      <description>Diode bridge</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Diode_Bridge</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="EBSDoorbellExt-Symbols" part="Doorbell">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Doorbell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Input" type="passive"/>
+        <pin num="2" name="Push_Button" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EBSDoorbellExt-rescue" part="FS20S4SUB2/4-RESCUE-EBSDoorbellExt">
+      <fields>
+        <field name="Reference">MOD</field>
+        <field name="Value">FS20S4SUB2/4-RESCUE-EBSDoorbellExt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ST1" type="output"/>
+        <pin num="2" name="GND" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="EBSDoorbellExt-Symbols" part="LM555N">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Output" type="output"/>
+        <pin num="4" name="~Reset" type="input"/>
+        <pin num="5" name="Ctrl" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="opto" part="LTV-817">
+      <description>DIP-4, DC Optocoupler, Vce 35V, CTR 50%</description>
+      <docs>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</docs>
+      <footprints>
+        <fp>DIP-4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-817</field>
+        <field name="Footprint">DIP-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="EBSDoorbellExt-rescue">
+      <uri>/home/vagrant/pcbs/EBSDoorbellExt/PCB/EBSDoorbellExt-rescue.lib</uri>
+    </library>
+    <library logical="EBSDoorbellExt-Symbols">
+      <uri>/home/vagrant/pcbs/EBSDoorbellExt/PCB/lib/EBSDoorbellExt-Symbols.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="opto">
+      <uri>/usr/share/kicad/library/opto.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D6" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="P2" pin="3"/>
+      <node ref="R13" pin="2"/>
+      <node ref="W7" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="3" name="/In1">
+      <node ref="SW1" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C7-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D4-Pad1)">
+      <node ref="R7" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(P2-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="8" name="/Vcc">
+      <node ref="R9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="8"/>
+      <node ref="W3" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D6-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R11-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="W6" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="12" name="Net-(MOD1-Pad2)">
+      <node ref="MOD1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C10-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="15" name="Net-(MOD1-Pad1)">
+      <node ref="MOD1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="W1" pin="1"/>
+    </net>
+    <net code="16" name="/~Trigger">
+      <node ref="R4" pin="1"/>
+      <node ref="W4" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="18" name="/FS20_Sig">
+      <node ref="U2" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="W5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="21" name="/In2">
+      <node ref="P1" pin="2"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="D2" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="W2" pin="1"/>
+    </net>
+  </nets>
+</export>
